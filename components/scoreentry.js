@@ -32,7 +32,7 @@ export default function ScoreEntry({ data, symbol }) {
       </td>
       <td className="px-6 py-4">
         <a
-          href={"http://www.ribbit.xyz/bms/score/view?p=1&md5=" + data.md5}
+          href={"https://bms-score-viewer.pages.dev/view?p=1&md5=" + data.md5}
           className="font-medium text-blue-600 hover:underline"
           target="_blank"
           rel="noreferrer"
