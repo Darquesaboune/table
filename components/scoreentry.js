@@ -46,7 +46,7 @@ export default function ScoreEntry({ data, symbol }) {
       <td className="px-6 py-4">
         <a
           href={
-            "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=" +
+            "https://ir.stellabms.xyz/charts/" +
             data.md5
           }
           target="_blank"
